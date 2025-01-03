@@ -1,7 +1,12 @@
 import { Text, View } from "react-native";
 import React, { useEffect } from "react";
 import { SplashScreen, Stack } from "expo-router";
-import "../global.css";
+
+// import "../tailwind.config";
+// import "../input.css";
+import "../output.css";
+import "../global.css"
+
 import { useFonts } from "expo-font";
 
 SplashScreen.preventAutoHideAsync();
@@ -25,6 +30,8 @@ const RootLayout = () => {
   }
   ,[fontsLoaded, error]);
   if(!fontsLoaded && !error) return null;
+
+  
 
 
   return (

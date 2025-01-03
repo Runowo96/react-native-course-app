@@ -23,3 +23,7 @@ module.exports = {
   },
   plugins: [],
 }
+
+// module.exports = {
+//   presets: [require("nativewind/preset")],
+// };
